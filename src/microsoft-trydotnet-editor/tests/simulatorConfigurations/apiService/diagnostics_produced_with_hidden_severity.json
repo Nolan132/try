@@ -1,0 +1,484 @@
+{
+  "requests": [
+    {
+      "commands": [
+        {
+          "token": "command-token",
+          "commandType": "OpenProject",
+          "command": {
+            "project": {
+              "files": [
+                {
+                  "relativeFilePath": "./Program.cs",
+                  "content": "\npublic class Program\n{\n    public static void Main(string[] args)\n    {\n        int someInt = 1;\n        #region test-region\n        #endregion\n    }\n}\n"
+                }
+              ]
+            },
+            "targetKernelName": null,
+            "originUri": null,
+            "destinationUri": null
+          },
+          "routingSlip": []
+        }
+      ],
+      "events": [
+        {
+          "event": {
+            "projectItems": [
+              {
+                "relativeFilePath": "./Program.cs",
+                "regionNames": [
+                  "test-region"
+                ],
+                "regionsContent": {
+                  "test-region": ""
+                }
+              }
+            ]
+          },
+          "eventType": "ProjectOpened",
+          "command": {
+            "token": "command-token",
+            "commandType": "OpenProject",
+            "command": {
+              "project": {
+                "files": [
+                  {
+                    "relativeFilePath": "./Program.cs",
+                    "content": "\npublic class Program\n{\n    public static void Main(string[] args)\n    {\n        int someInt = 1;\n        #region test-region\n        #endregion\n    }\n}\n"
+                  }
+                ]
+              },
+              "targetKernelName": "csharp.console",
+              "originUri": null,
+              "destinationUri": null
+            },
+            "routingSlip": [
+              "kernel://local/csharp.console?tag=arrived",
+              "kernel://local/csharp.console"
+            ]
+          },
+          "routingSlip": [
+            "kernel://local/csharp.console"
+          ]
+        },
+        {
+          "event": {
+            "executionOrder": 0
+          },
+          "eventType": "CommandSucceeded",
+          "command": {
+            "token": "command-token",
+            "commandType": "OpenProject",
+            "command": {
+              "project": {
+                "files": [
+                  {
+                    "relativeFilePath": "./Program.cs",
+                    "content": "\npublic class Program\n{\n    public static void Main(string[] args)\n    {\n        int someInt = 1;\n        #region test-region\n        #endregion\n    }\n}\n"
+                  }
+                ]
+              },
+              "targetKernelName": "csharp.console",
+              "originUri": null,
+              "destinationUri": null
+            },
+            "routingSlip": [
+              "kernel://local/csharp.console?tag=arrived",
+              "kernel://local/csharp.console"
+            ]
+          },
+          "routingSlip": [
+            "kernel://local/csharp.console"
+          ]
+        }
+      ]
+    },
+    {
+      "commands": [
+        {
+          "token": "command-token",
+          "commandType": "OpenProject",
+          "command": {
+            "project": {
+              "files": [
+                {
+                  "relativeFilePath": "./Program.cs",
+                  "content": "\npublic class Program\n{\n    public static void Main(string[] args)\n    {\n        int someInt = 1;\n        #region test-region\n        #endregion\n    }\n}\n"
+                }
+              ]
+            },
+            "targetKernelName": null,
+            "originUri": null,
+            "destinationUri": null
+          },
+          "routingSlip": []
+        },
+        {
+          "token": "command-token",
+          "commandType": "OpenDocument",
+          "command": {
+            "relativeFilePath": "./Program.cs",
+            "regionName": "test-region",
+            "targetKernelName": null,
+            "originUri": null,
+            "destinationUri": null
+          },
+          "routingSlip": []
+        }
+      ],
+      "events": [
+        {
+          "event": {
+            "projectItems": [
+              {
+                "relativeFilePath": "./Program.cs",
+                "regionNames": [
+                  "test-region"
+                ],
+                "regionsContent": {
+                  "test-region": ""
+                }
+              }
+            ]
+          },
+          "eventType": "ProjectOpened",
+          "command": {
+            "token": "command-token",
+            "commandType": "OpenProject",
+            "command": {
+              "project": {
+                "files": [
+                  {
+                    "relativeFilePath": "./Program.cs",
+                    "content": "\npublic class Program\n{\n    public static void Main(string[] args)\n    {\n        int someInt = 1;\n        #region test-region\n        #endregion\n    }\n}\n"
+                  }
+                ]
+              },
+              "targetKernelName": "csharp.console",
+              "originUri": null,
+              "destinationUri": null
+            },
+            "routingSlip": [
+              "kernel://local/csharp.console?tag=arrived",
+              "kernel://local/csharp.console"
+            ]
+          },
+          "routingSlip": [
+            "kernel://local/csharp.console"
+          ]
+        },
+        {
+          "event": {
+            "executionOrder": 0
+          },
+          "eventType": "CommandSucceeded",
+          "command": {
+            "token": "command-token",
+            "commandType": "OpenProject",
+            "command": {
+              "project": {
+                "files": [
+                  {
+                    "relativeFilePath": "./Program.cs",
+                    "content": "\npublic class Program\n{\n    public static void Main(string[] args)\n    {\n        int someInt = 1;\n        #region test-region\n        #endregion\n    }\n}\n"
+                  }
+                ]
+              },
+              "targetKernelName": "csharp.console",
+              "originUri": null,
+              "destinationUri": null
+            },
+            "routingSlip": [
+              "kernel://local/csharp.console?tag=arrived",
+              "kernel://local/csharp.console"
+            ]
+          },
+          "routingSlip": [
+            "kernel://local/csharp.console"
+          ]
+        },
+        {
+          "event": {
+            "relativeFilePath": "./Program.cs",
+            "regionName": "test-region",
+            "content": ""
+          },
+          "eventType": "DocumentOpened",
+          "command": {
+            "token": "command-token",
+            "commandType": "OpenDocument",
+            "command": {
+              "relativeFilePath": "./Program.cs",
+              "regionName": "test-region",
+              "targetKernelName": "csharp.console",
+              "originUri": null,
+              "destinationUri": null
+            },
+            "routingSlip": [
+              "kernel://local/csharp.console?tag=arrived",
+              "kernel://local/csharp.console"
+            ]
+          },
+          "routingSlip": [
+            "kernel://local/csharp.console"
+          ]
+        },
+        {
+          "event": {
+            "executionOrder": 0
+          },
+          "eventType": "CommandSucceeded",
+          "command": {
+            "token": "command-token",
+            "commandType": "OpenDocument",
+            "command": {
+              "relativeFilePath": "./Program.cs",
+              "regionName": "test-region",
+              "targetKernelName": "csharp.console",
+              "originUri": null,
+              "destinationUri": null
+            },
+            "routingSlip": [
+              "kernel://local/csharp.console?tag=arrived",
+              "kernel://local/csharp.console"
+            ]
+          },
+          "routingSlip": [
+            "kernel://local/csharp.console"
+          ]
+        }
+      ]
+    },
+    {
+      "commands": [
+        {
+          "token": "command-token",
+          "commandType": "OpenProject",
+          "command": {
+            "project": {
+              "files": [
+                {
+                  "relativeFilePath": "./Program.cs",
+                  "content": "\nusing System.Linq;\nusing System;\n\npublic class Program\n{\n    public static void Main(string[] args)\n    {\n        int someInt = 1;\n        #region test-region\n        #endregion\n    }\n}\n"
+                }
+              ]
+            },
+            "targetKernelName": null,
+            "originUri": null,
+            "destinationUri": null
+          },
+          "routingSlip": []
+        },
+        {
+          "token": "command-token",
+          "commandType": "OpenDocument",
+          "command": {
+            "relativeFilePath": "./Program.cs",
+            "regionName": "test-region",
+            "targetKernelName": null,
+            "originUri": null,
+            "destinationUri": null
+          },
+          "routingSlip": []
+        },
+        {
+          "token": "command-token",
+          "commandType": "RequestDiagnostics",
+          "command": {
+            "code": "someInt = 4;",
+            "targetKernelName": null,
+            "originUri": null,
+            "destinationUri": null
+          },
+          "routingSlip": []
+        }
+      ],
+      "events": [
+        {
+          "event": {
+            "projectItems": [
+              {
+                "relativeFilePath": "./Program.cs",
+                "regionNames": [
+                  "test-region"
+                ],
+                "regionsContent": {
+                  "test-region": ""
+                }
+              }
+            ]
+          },
+          "eventType": "ProjectOpened",
+          "command": {
+            "token": "command-token",
+            "commandType": "OpenProject",
+            "command": {
+              "project": {
+                "files": [
+                  {
+                    "relativeFilePath": "./Program.cs",
+                    "content": "\nusing System.Linq;\nusing System;\n\npublic class Program\n{\n    public static void Main(string[] args)\n    {\n        int someInt = 1;\n        #region test-region\n        #endregion\n    }\n}\n"
+                  }
+                ]
+              },
+              "targetKernelName": "csharp.console",
+              "originUri": null,
+              "destinationUri": null
+            },
+            "routingSlip": [
+              "kernel://local/csharp.console?tag=arrived",
+              "kernel://local/csharp.console"
+            ]
+          },
+          "routingSlip": [
+            "kernel://local/csharp.console"
+          ]
+        },
+        {
+          "event": {
+            "executionOrder": 0
+          },
+          "eventType": "CommandSucceeded",
+          "command": {
+            "token": "command-token",
+            "commandType": "OpenProject",
+            "command": {
+              "project": {
+                "files": [
+                  {
+                    "relativeFilePath": "./Program.cs",
+                    "content": "\nusing System.Linq;\nusing System;\n\npublic class Program\n{\n    public static void Main(string[] args)\n    {\n        int someInt = 1;\n        #region test-region\n        #endregion\n    }\n}\n"
+                  }
+                ]
+              },
+              "targetKernelName": "csharp.console",
+              "originUri": null,
+              "destinationUri": null
+            },
+            "routingSlip": [
+              "kernel://local/csharp.console?tag=arrived",
+              "kernel://local/csharp.console"
+            ]
+          },
+          "routingSlip": [
+            "kernel://local/csharp.console"
+          ]
+        },
+        {
+          "event": {
+            "relativeFilePath": "./Program.cs",
+            "regionName": "test-region",
+            "content": ""
+          },
+          "eventType": "DocumentOpened",
+          "command": {
+            "token": "command-token",
+            "commandType": "OpenDocument",
+            "command": {
+              "relativeFilePath": "./Program.cs",
+              "regionName": "test-region",
+              "targetKernelName": "csharp.console",
+              "originUri": null,
+              "destinationUri": null
+            },
+            "routingSlip": [
+              "kernel://local/csharp.console?tag=arrived",
+              "kernel://local/csharp.console"
+            ]
+          },
+          "routingSlip": [
+            "kernel://local/csharp.console"
+          ]
+        },
+        {
+          "event": {
+            "executionOrder": 0
+          },
+          "eventType": "CommandSucceeded",
+          "command": {
+            "token": "command-token",
+            "commandType": "OpenDocument",
+            "command": {
+              "relativeFilePath": "./Program.cs",
+              "regionName": "test-region",
+              "targetKernelName": "csharp.console",
+              "originUri": null,
+              "destinationUri": null
+            },
+            "routingSlip": [
+              "kernel://local/csharp.console?tag=arrived",
+              "kernel://local/csharp.console"
+            ]
+          },
+          "routingSlip": [
+            "kernel://local/csharp.console"
+          ]
+        },
+        {
+          "event": {
+            "diagnostics": [
+              {
+                "linePositionSpan": {
+                  "start": {
+                    "line": 0,
+                    "character": 12
+                  },
+                  "end": {
+                    "line": 0,
+                    "character": 12
+                  }
+                },
+                "severity": "hidden",
+                "code": "CS0219",
+                "message": "The variable 'someInt' is assigned but its value is never used"
+              }
+            ],
+            "formattedDiagnostics": []
+          },
+          "eventType": "DiagnosticsProduced",
+          "command": {
+            "token": "command-token",
+            "commandType": "RequestDiagnostics",
+            "command": {
+              "code": "someInt = 4;",
+              "targetKernelName": "csharp.console",
+              "originUri": null,
+              "destinationUri": null
+            },
+            "routingSlip": [
+              "kernel://local/csharp.console?tag=arrived",
+              "kernel://local/csharp.console"
+            ]
+          },
+          "routingSlip": [
+            "kernel://local/csharp.console"
+          ]
+        },
+        {
+          "event": {
+            "executionOrder": 0
+          },
+          "eventType": "CommandSucceeded",
+          "command": {
+            "token": "command-token",
+            "commandType": "RequestDiagnostics",
+            "command": {
+              "code": "someInt = 4;",
+              "targetKernelName": "csharp.console",
+              "originUri": null,
+              "destinationUri": null
+            },
+            "routingSlip": [
+              "kernel://local/csharp.console?tag=arrived",
+              "kernel://local/csharp.console"
+            ]
+          },
+          "routingSlip": [
+            "kernel://local/csharp.console"
+          ]
+        }
+      ]
+    }
+  ]
+}

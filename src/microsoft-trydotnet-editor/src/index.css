@@ -1,5 +1,13 @@
 body {
-	width: 800px;
-	height: 600px;
-	border: 1px solid #ccc;
+	width: auto;
+	height: auto;
+	margin: 0;
+}
+
+.monaco-editor {
+	padding: 0.5rem;
+}
+
+iframe[role="wasm-runner"] {
+    opacity: 0;
 }
